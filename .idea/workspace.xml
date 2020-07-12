@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48d53e2a-0dfe-404c-bef3-abe1307027af" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ego@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ego@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ego@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ego: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\maven-ego\Repository" />
+        <option name="mavenHome" value="D:/Maven/maven-ego/soft/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\Maven\maven-ego\soft\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eZz7ipLYsdSGihCswTLB08P1LW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/mapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xiangmukaifa\ego-parent\ego-manager\web\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ego.start" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xiangmukaifa\ego-parent\ego-service-impl\src\main\java\com\ego\mapper" />
+      <recent name="D:\xiangmukaifa\ego-parent\ego-pojo\src\main\java\com\ego\pojo" />
+      <recent name="D:\xiangmukaifa\ego-parent\ego-service-impl\src\main\resources" />
+      <recent name="D:\xiangmukaifa\ego-parent\ego-manager\src\main" />
+      <recent name="D:\xiangmukaifa\ego-parent\ego-manager\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestDao.showItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ego-service-impl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDao" />
+      <option name="METHOD_NAME" value="showItemTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDao.showItemTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48d53e2a-0dfe-404c-bef3-abe1307027af" name="Default Changelist" comment="" />
+      <created>1594543737246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594543737246</updated>
+      <workItem from="1594543742966" duration="16736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Inspections" timestamp="1594554827778">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1594554827778" />
+    <state x="275" y="42" key="#Project_Structure" timestamp="1594562804743">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1594562804743" />
+    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594546102018">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1594546102018" />
+    <state x="488" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1594564111117">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1594564111117" />
+    <state x="413" y="159" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594559838268">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="159" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1594559838268" />
+    <state x="433" y="282" width="575" height="203" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1594556794575">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="433" y="282" width="575" height="203" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.768@0.0.1366.768" timestamp="1594556794575" />
+    <state x="472" y="293" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1594556804111">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="472" y="293" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1366.768@0.0.1366.768" timestamp="1594556804111" />
+    <state x="281" y="300" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594546796368">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="281" y="300" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1594546796368" />
+    <state x="413" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594559107716">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1594559107716" />
+    <state x="442" y="113" key="FileChooserDialogImpl" timestamp="1594556793445">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="442" y="113" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594556793445" />
+    <state width="1321" height="262" key="GridCell.Tab.0.bottom" timestamp="1594560822989">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
+    <state width="1321" height="262" key="GridCell.Tab.0.center" timestamp="1594560822989">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
+    <state width="1321" height="262" key="GridCell.Tab.0.left" timestamp="1594560822989">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
+    <state width="1321" height="262" key="GridCell.Tab.0.right" timestamp="1594560822989">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
+    <state width="1321" height="262" key="GridCell.Tab.1.bottom" timestamp="1594560822990">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594560822990" />
+    <state width="1321" height="262" key="GridCell.Tab.1.center" timestamp="1594560822990">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1594560822990" />
+    <state width="1321" height="262" key="GridCell.Tab.1.left" timestamp="1594560822989">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
+    <state width="1321" height="262" key="GridCell.Tab.1.right" timestamp="1594560822990">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="262" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1594560822990" />
+    <state x="248" y="122" key="IDE.errors.dialog" timestamp="1594564599733">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="248" y="122" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1594564599733" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1594556814367">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594556814367" />
+    <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1594546130171">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.768@0.0.1366.768" timestamp="1594546130171" />
+    <state x="450" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594559842074">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="450" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1594559842074" />
+    <state x="81" y="0" key="new project wizard" timestamp="1594547035445">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="81" y="0" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1594547035445" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1594546763092">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1594546763092" />
+    <state x="343" y="0" key="spring file set editor" timestamp="1594558626035">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="343" y="0" key="spring file set editor/0.0.1366.768@0.0

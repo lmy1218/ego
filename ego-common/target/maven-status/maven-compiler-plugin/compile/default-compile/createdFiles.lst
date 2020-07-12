@@ -1,0 +1,9 @@
+com\ego\common\utils\FtpUtil.class
+com\ego\common\pojo\EgoResult.class
+com\ego\common\utils\IDUtils.class
+com\ego\common\utils\JsonUtils.class
+com\ego\common\pojo\EasyUIDataGrid.class
+com\ego\common\pojo\TbItemChild.class
+com\ego\common\pojo\EasyUiTree.class
+com\ego\common\utils\CookieUtils.class
+com\ego\common\utils\HttpClientUtil.class
