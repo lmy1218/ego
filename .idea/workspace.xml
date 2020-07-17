@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48d53e2a-0dfe-404c-bef3-abe1307027af" name="Default Changelist" comment="" />
+    <list default="true" id="48d53e2a-0dfe-404c-bef3-abe1307027af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/controller/PicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/controller/TbItemCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/controller/TbItemParamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/pojo/TbItemParamChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/PicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/TbItemCatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/TbItemParamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/impl/PicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/impl/TbItemCatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/impl/TbItemParamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemCatDubboServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemParamDubboServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemCatDubboService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemParamDubboService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/controller/TbItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/controller/TbItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/TbItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/TbItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/impl/TbItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manager/src/main/java/com/ego/manager/service/impl/TbItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemDubboServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemDubboServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/src/main/resources/spring/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/src/main/resources/spring/applicationContext-dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemDubboService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemDubboService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +57,32 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="ego: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ego@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ego: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tb_item_cat: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ego@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ego: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tb_item_param: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ego@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ego: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tb_item_param_item: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ego-parent" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +96,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\xiangmukaifa\ego-parent\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -59,6 +113,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1eZz7ipLYsdSGihCswTLB08P1LW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -83,13 +140,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xiangmukaifa\ego-parent\ego-manager\web\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ego.manager.pojo" />
       <recent name="com.ego.start" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -127,7 +185,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594543737246</updated>
-      <workItem from="1594543742966" duration="16736000" />
+      <workItem from="1594543742966" duration="17588000" />
+      <workItem from="1594607453049" duration="3849000" />
+      <workItem from="1594870444726" duration="8736000" />
+      <workItem from="1594942307915" duration="2295000" />
     </task>
     <servers />
   </component>
@@ -147,10 +208,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1594546102018" />
-    <state x="488" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1594564111117">
+    <state x="488" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1594943869091">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1594564111117" />
+    <state x="488" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1594943869091" />
     <state x="413" y="159" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594559838268">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -175,46 +236,46 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="113" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594556793445" />
-    <state width="1321" height="262" key="GridCell.Tab.0.bottom" timestamp="1594560822989">
+    <state width="1321" height="262" key="GridCell.Tab.0.bottom" timestamp="1594568018707">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
-    <state width="1321" height="262" key="GridCell.Tab.0.center" timestamp="1594560822989">
+    <state width="1321" height="262" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594568018707" />
+    <state width="1321" height="262" key="GridCell.Tab.0.center" timestamp="1594568018707">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
-    <state width="1321" height="262" key="GridCell.Tab.0.left" timestamp="1594560822989">
+    <state width="1321" height="262" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594568018707" />
+    <state width="1321" height="262" key="GridCell.Tab.0.left" timestamp="1594568018707">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
-    <state width="1321" height="262" key="GridCell.Tab.0.right" timestamp="1594560822989">
+    <state width="1321" height="262" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594568018707" />
+    <state width="1321" height="262" key="GridCell.Tab.0.right" timestamp="1594568018707">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
-    <state width="1321" height="262" key="GridCell.Tab.1.bottom" timestamp="1594560822990">
+    <state width="1321" height="262" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594568018707" />
+    <state width="1321" height="262" key="GridCell.Tab.1.bottom" timestamp="1594568018708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594560822990" />
-    <state width="1321" height="262" key="GridCell.Tab.1.center" timestamp="1594560822990">
+    <state width="1321" height="262" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594568018708" />
+    <state width="1321" height="262" key="GridCell.Tab.1.center" timestamp="1594568018708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1594560822990" />
-    <state width="1321" height="262" key="GridCell.Tab.1.left" timestamp="1594560822989">
+    <state width="1321" height="262" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1594568018708" />
+    <state width="1321" height="262" key="GridCell.Tab.1.left" timestamp="1594568018708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1594560822989" />
-    <state width="1321" height="262" key="GridCell.Tab.1.right" timestamp="1594560822990">
+    <state width="1321" height="262" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1594568018707" />
+    <state width="1321" height="262" key="GridCell.Tab.1.right" timestamp="1594568018708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="262" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1594560822990" />
-    <state x="248" y="122" key="IDE.errors.dialog" timestamp="1594564599733">
+    <state width="1321" height="262" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1594568018708" />
+    <state x="248" y="122" key="IDE.errors.dialog" timestamp="1594607562221">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="248" y="122" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1594564599733" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1594556814367">
+    <state x="248" y="122" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1594607562221" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1594612940685">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594556814367" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594612940685" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1594546130171">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -223,6 +284,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="450" y="59" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1594559842074" />
+    <state x="414" y="157" key="git4idea.merge.GitPullDialog" timestamp="1594944761479">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="414" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1594944761479" />
     <state x="81" y="0" key="new project wizard" timestamp="1594547035445">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -231,7 +296,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1594546763092" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594943903058">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1594943903058" />
     <state x="343" y="0" key="spring file set editor" timestamp="1594558626035">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="343" y="0" key="spring file set editor/0.0.1366.768@0.0
+    <state x="343" y="0" key="spring file set editor/0.0.1366.768@0.0.1366.768" timestamp="1594558626035" />
+  </component>
+</project>

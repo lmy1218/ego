@@ -1,6 +1,8 @@
 package com.ego.dubbo.service;
 
 import com.ego.common.pojo.EasyUIDataGrid;
+import com.ego.pojo.TbItem;
+import com.ego.pojo.TbItemDesc;
 
 /**
  * @author Administrator
@@ -18,5 +20,14 @@ public interface TbItemDubboService {
      * @return
      */
     EasyUIDataGrid showByPage(int page, int size);
+
+    /**
+     * 新增商品
+     * @param item
+     * @param itemDesc
+     * @return
+     * @throws Exception
+     */
+    int insTbItemAndDesc(TbItem item, TbItemDesc itemDesc) throws Exception;
 
 }

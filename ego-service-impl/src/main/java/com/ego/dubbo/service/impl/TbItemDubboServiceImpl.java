@@ -9,14 +9,17 @@ package com.ego.dubbo.service.impl;
 
 import com.ego.common.pojo.EasyUIDataGrid;
 import com.ego.dubbo.service.TbItemDubboService;
+import com.ego.mapper.TbItemDescMapper;
 import com.ego.mapper.TbItemMapper;
 import com.ego.pojo.TbItem;
+import com.ego.pojo.TbItemDesc;
 import com.ego.pojo.TbItemExample;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -33,6 +36,8 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
     @Autowired
     private TbItemMapper tbItemMapper;
 
+    @Autowired
+    private TbItemDescMapper tbItemDescMapper;
 
     /**
      * 分页查询
@@ -54,5 +59,26 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
         dataGrid.setTotal(pageInfo.getTotal());
 
         return dataGrid;
+    }
+
+
+    /**
+     * 商品新增
+     * @param item
+     * @param itemDesc
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public int insTbItemAndDesc(TbItem item, TbItemDesc itemDesc) throws Exception {
+        int index = 0;
+        index = tbItemMapper.insertSelective(item);
+        index += tbItemDescMapper.insertSelective(itemDesc);
+        if (index == 2) {
+            return 1;
+        } else {
+            // 新增失败，数据回滚
+           throw new  Exception("新增失败");
+        }
     }
 }

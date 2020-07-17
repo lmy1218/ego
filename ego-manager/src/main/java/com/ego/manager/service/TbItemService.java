@@ -1,6 +1,7 @@
 package com.ego.manager.service;
 
 import com.ego.common.pojo.EasyUIDataGrid;
+import com.ego.pojo.TbItem;
 
 /**
  * @author Administrator
@@ -13,4 +14,5 @@ public interface TbItemService {
 
     EasyUIDataGrid showByPage(int page, int size);
 
+    int save(TbItem item, String desc) throws Exception;
 }

@@ -8,7 +8,9 @@ package com.ego.manager.controller;
  */
 
 import com.ego.common.pojo.EasyUIDataGrid;
+import com.ego.common.pojo.EgoResult;
 import com.ego.manager.service.TbItemService;
+import com.ego.pojo.TbItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,6 +39,30 @@ public class TbItemController {
     @ResponseBody
     public EasyUIDataGrid showItem(Integer page, Integer size) {
         return this.tbItemServiceImpl.showByPage(page, size);
+    }
+
+
+    /**
+     * 商品新增
+     * @param item
+     * @param desc
+     * @return
+     */
+    public EgoResult insert(TbItem item, String desc) {
+        EgoResult er = new EgoResult<>();
+        try {
+            int index = 0;
+            index = tbItemServiceImpl.save(item, desc);
+            System.out.println("controler:index:"+index);
+            if(index==1){
+                er.setStatus(200);
+            }
+        } catch (Exception e) {
+            // e.printStackTrace();
+            er.setData(e.getMessage());
+        }
+        return er;
+
     }
 
 }
