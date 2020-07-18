@@ -14,5 +14,5 @@ public interface TbItemService {
 
     EasyUIDataGrid showByPage(int page, int size);
 
-    int save(TbItem item, String desc) throws Exception;
+    int save(TbItem item, String itemParams, String desc) throws Exception;
 }

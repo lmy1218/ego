@@ -1,6 +1,8 @@
 package com.ego.manager.service;
 
 import com.ego.common.pojo.EasyUIDataGrid;
+import com.ego.common.pojo.EgoResult;
+import com.ego.pojo.TbItemParam;
 
 /**
  * @author Administrator
@@ -12,4 +14,10 @@ import com.ego.common.pojo.EasyUIDataGrid;
 public interface TbItemParamService {
 
     EasyUIDataGrid showPage(int page, int rows);
+
+    int deleteByIds(String ids) throws Exception;
+
+    EgoResult existParam(Long catId);
+
+    EgoResult save(TbItemParam param);
 }

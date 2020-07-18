@@ -11,17 +11,15 @@ import com.ego.common.pojo.EasyUIDataGrid;
 import com.ego.dubbo.service.TbItemDubboService;
 import com.ego.mapper.TbItemDescMapper;
 import com.ego.mapper.TbItemMapper;
+import com.ego.mapper.TbItemParamMapper;
 import com.ego.pojo.TbItem;
 import com.ego.pojo.TbItemDesc;
 import com.ego.pojo.TbItemExample;
+import com.ego.pojo.TbItemParam;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -38,6 +36,9 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
 
     @Autowired
     private TbItemDescMapper tbItemDescMapper;
+
+    @Autowired
+    private TbItemParamMapper tbItemParamMapper;
 
     /**
      * 分页查询
@@ -66,19 +67,33 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
      * 商品新增
      * @param item
      * @param itemDesc
+     * @param param
      * @return
      * @throws Exception
      */
     @Override
-    public int insTbItemAndDesc(TbItem item, TbItemDesc itemDesc) throws Exception {
+    public int insTbItemAndDesc(TbItem item, TbItemDesc itemDesc, TbItemParam param) throws Exception {
         int index = 0;
         index = tbItemMapper.insertSelective(item);
         index += tbItemDescMapper.insertSelective(itemDesc);
-        if (index == 2) {
+        index += tbItemParamMapper.insertSelective(param);
+        if (index == 3) {
             return 1;
         } else {
             // 新增失败，数据回滚
            throw new  Exception("新增失败");
         }
+    }
+
+    @Override
+    public TbItem selById(long id) {
+        return tbItemMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public List<TbItem> selAllByStatus(byte status) {
+        TbItemExample example = new TbItemExample();
+        example.createCriteria().andStatusEqualTo(status);
+        return tbItemMapper.selectByExample(example);
     }
 }

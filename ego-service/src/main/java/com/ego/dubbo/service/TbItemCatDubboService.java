@@ -17,4 +17,8 @@ public interface TbItemCatDubboService {
     List<TbItemCat> showCatByPid(long pid);
     // 根据类目ID查询
     TbItemCat sleById(long id);
+
+    List<TbItemCat> show(long pid);
+
+    TbItemCat selById(Long cid);
 }

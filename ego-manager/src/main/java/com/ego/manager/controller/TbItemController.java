@@ -48,11 +48,11 @@ public class TbItemController {
      * @param desc
      * @return
      */
-    public EgoResult insert(TbItem item, String desc) {
+    public EgoResult insert(TbItem item, String desc, String itemParams) {
         EgoResult er = new EgoResult<>();
         try {
             int index = 0;
-            index = tbItemServiceImpl.save(item, desc);
+            index = tbItemServiceImpl.save(item, desc, itemParams);
             System.out.println("controler:index:"+index);
             if(index==1){
                 er.setStatus(200);

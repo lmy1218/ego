@@ -3,6 +3,9 @@ package com.ego.dubbo.service;
 import com.ego.common.pojo.EasyUIDataGrid;
 import com.ego.pojo.TbItem;
 import com.ego.pojo.TbItemDesc;
+import com.ego.pojo.TbItemParam;
+
+import java.util.List;
 
 /**
  * @author Administrator
@@ -25,9 +28,14 @@ public interface TbItemDubboService {
      * 新增商品
      * @param item
      * @param itemDesc
+     * @param param
      * @return
      * @throws Exception
      */
-    int insTbItemAndDesc(TbItem item, TbItemDesc itemDesc) throws Exception;
+    int insTbItemAndDesc(TbItem item, TbItemDesc itemDesc, TbItemParam param) throws Exception;
 
+
+    TbItem selById(long id);
+
+    List<TbItem> selAllByStatus(byte status);
 }

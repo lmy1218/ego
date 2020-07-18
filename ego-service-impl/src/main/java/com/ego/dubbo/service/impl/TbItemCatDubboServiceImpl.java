@@ -48,4 +48,16 @@ public class TbItemCatDubboServiceImpl implements TbItemCatDubboService {
     public TbItemCat sleById(long id) {
         return tbItemCatMapper.selectByPrimaryKey(id);
     }
+
+    @Override
+    public List<TbItemCat> show(long pid) {
+        TbItemCatExample example = new TbItemCatExample();
+        example.createCriteria().andParentIdEqualTo(pid);
+        return tbItemCatMapper.selectByExample(example);
+    }
+
+    @Override
+    public TbItemCat selById(Long cid) {
+        return tbItemCatMapper.selectByPrimaryKey(cid);
+    }
 }

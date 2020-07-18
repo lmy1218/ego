@@ -8,9 +8,12 @@ package com.ego.manager.controller;
  */
 
 import com.ego.common.pojo.EasyUIDataGrid;
+import com.ego.common.pojo.EgoResult;
 import com.ego.manager.service.TbItemParamService;
+import com.ego.pojo.TbItemParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -37,6 +40,47 @@ public class TbItemParamController {
     @ResponseBody
     public EasyUIDataGrid showPage(int page, int rows) {
         return tbItemParamServiceImpl.showPage(page, rows);
+    }
+
+
+    /**
+     * 批量删除规格参数
+     * @param ids
+     * @return
+     */
+    @RequestMapping("item/param/delete")
+    @ResponseBody
+    public EgoResult delete(String ids) {
+        EgoResult er = new EgoResult();
+        try {
+            int index = tbItemParamServiceImpl.deleteByIds(ids);
+            if (index == 1) {
+                er.setStatus(200);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            er.setMsg(e.getMessage());
+        }
+        return er;
+    }
+
+
+    /**
+     * 判断参数模版是否存在
+     * @param catId
+     * @return
+     */
+    @RequestMapping("item/param/query/itemcatid/{catId}")
+    @ResponseBody
+    public EgoResult existParam(@PathVariable Long catId) {
+        return tbItemParamServiceImpl.existParam(catId);
+    }
+
+    @RequestMapping("item/param/save/{catId}")
+    @ResponseBody
+    public EgoResult save(TbItemParam param, @PathVariable Long catId) {
+        param.setItemCatId(catId);
+        return tbItemParamServiceImpl.save(param);
     }
 
 }
