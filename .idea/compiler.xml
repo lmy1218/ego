@@ -8,13 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ego-service" />
         <module name="ego-search" />
+        <module name="ego-cart" />
         <module name="ego-common" />
         <module name="ego-pojo" />
         <module name="ego-redis" />
-        <module name="ego-service-impl" />
-        <module name="ego-manager" />
-        <module name="ego-item" />
         <module name="ego-portal" />
+        <module name="ego-manager" />
+        <module name="ego-order" />
+        <module name="ego-item" />
+        <module name="ego-passport" />
+        <module name="ego-service-impl" />
       </profile>
     </annotationProcessing>
   </component>

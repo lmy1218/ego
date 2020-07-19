@@ -17,6 +17,9 @@
         <module>ego-redis</module>
         <module>ego-portal</module>
         <module>ego-search</module>
+        <module>ego-passport</module>
+        <module>ego-cart</module>
+        <module>ego-order</module>
     </modules>
     <packaging>pom</packaging>
 
